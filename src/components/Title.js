@@ -9,7 +9,7 @@ class Title extends React.Component {
         return (
             <div className="title">
                 <p>Aplikacja toDo:</p>
-                <p>Number of tasks: { this.props.data }</p>
+                <p>Liczba zadan: { this.props.data }</p>
             </div>
         );
     }
